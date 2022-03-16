@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 90%;
+    
+    
+}
+
+.container img{
+    width: 50px;
+    
+    
+    
+}
+h1{
+    text-align: center;
+    color: white;
+    width: 100%;
+    line-height: 100%;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+.app-logo1{
+    margin-top: 0;
+    box-shadow: 20px 20px solid white;
+}
+
+.app-logo1 img{
+    width: 80px;
+    color: white;
+    border-radius: 20px 20px solid white;
+}
+.app-logo1 :hover {
+    width: 120px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+h3{
+    font-size: 15px;
+    
+}
+
+.foot-details{
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.foot-details ul li{
+    list-style: none;
+    display: block;
+    
+}
+
+.foot-details ul li a{
+    text-decoration: none;
+    display: inline-flex;
+    color: lightsalmon;
+    padding: 5px;
+    font-size: small;
+}
+
+.foot-details ul li :hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+h3{
+    margin-left: 40px;
+    margin-bottom: 5px;
+    font-size: 10px;
+}
+
+.join-link{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+
+
+.join-us p{
+    font-weight: bolder;
+}
+
+.payment img{
+    margin-left: 35px;
+}
+
+.payment :hover{
+    cursor: pointer;
+    width: 40px;
+    transition: 1s;
+}
+
+.other{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+   
+    padding: 10px;
+    
+}
+
+.bok :hover{
+    width: 50px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.other p{
+    font-weight: bolder;
+}
+
+@media only screen and (min-device-width:281px){
+    body{width: 120%};
+}
+
+@media only screen and (min-device-width:320px){
+    body {width:100%}
+}
